@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        form{
+            width: 300px;
+            height: 100px;
+            border: 1px solid black;
+            margin: auto;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  <form action="userServlet" method="post">
+      <input type="hidden" name="flag" value="login">
+      账号： <input type="text" name="username"><p>
+  </p>
+      密码：<input type="password" name="pwd"><p>
+  </p>
+      <input type="submit" value="登录">
+  </form>
+</body>
+</html>
